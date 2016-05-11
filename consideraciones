@@ -1,0 +1,43 @@
+cuando se pase a produccion la app poner APP_DEBUG=false
+? cuando es algo opcional
+con el nombre de la clase mas el @ llamamos al metodo
+poner la clase y el archivo con el mismo nombre por si las moscas
+el this. como en todos lados se hace en php $this-> asi
+ para llamar a un metodo en vez de punto se utiliza ->
+ :: para acceder a la constante(en php se crean constantes que no se representan con $) el operador de resolución de alcance, ::;
+ La palabra clave static te deja usar una propiedad o método de clase sin haber creado una instancia de esa clase. 
+ funcines:. property_exists() y method_exists();
+ Un array asociativo usa los pares (clave => valor). Algunos lenguajes pueden separar los array de los array asociativos pero PHP trata a ambos de la misma forma. 
+
+ $miArray = array(2012, 'azul', 5);
+
+        // ...y este es un array asociativo:
+        $miArrayAsociativo = array('año' => 2012,
+                        'color' => 'azul',
+                        'puertas' => 5);
+            
+        // Este código muestra "azul"...
+        echo $miArray[1];
+        echo '<br />';
+            
+        // ... y esto también muestra "azul"!
+        echo $ miArrayAsociativo [color];
+        (asi se accede)
+
+Ambos array contienen los mismos valores, pero en el array asociativo podemos acceder al valor usando una "clave" especificada.
+Para recorrer un array que contiene valores solamente, podés usar el ciclo for. Para un array que contiene claves y valores, podés usar el ciclo foreach.
+
+
+bajar el mysql
+las rutas son peticines de nuestros usuarios
+
+
+protected $table = "genres";
+ protected $table = "movies";
+
+ homestead en las dos database y username
+
+
+un modelo es una representacion de una tabla en la base de datos
+
+timestamps tiempos de cuando se creo y cuando se actualizo el recurso
